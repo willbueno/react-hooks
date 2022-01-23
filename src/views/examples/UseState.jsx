@@ -12,8 +12,7 @@ const UseState = (props) => {
         <div className="UseState">
             <PageTitle
                 title="Hook UseState"
-                subtitle="Estado em componentes funcionais!"
-            />
+                subtitle="Estado em componentes funcionais!" />
 
             <SectionTitle title="Exercicio # 01" />
             <div className="center">
@@ -30,7 +29,8 @@ const UseState = (props) => {
 
             <SectionTitle title="Exercicio # 02" />
             <input type="text" className="input"
-                value={name} onChange={e => setName(e.target.value)} />
+                value={name}
+                onChange={e => setName(e.target.value)} />
             <span className="text">{name}</span>
         </div>
     )
